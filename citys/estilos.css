@@ -1,0 +1,208 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gold;
+}
+
+body {
+    background: rgb(4,3,5);
+background: linear-gradient(90deg, rgba(4,3,5,1) 0%, rgba(91,18,18,1) 43%, rgba(252,176,69,1) 100%);
+}
+
+header::before {
+    content: "";
+    background-image: url(../citys/paris_fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 35%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.;
+}
+
+logo::before {
+    justify-content: end;
+}
+
+.cabecalho {
+    background-color: transparent;
+    justify-content: center;
+       
+}
+
+
+.bemvindo {
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 4px;
+    padding: 20px;
+}
+
+.sobrenos {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding: 16px;
+}
+
+
+.divlogo {
+    text-align: center;
+    justify-content: center;
+    
+          
+}
+
+.divlogo .logo {
+    text-align: center;
+    width: 15%;
+    height: 15%;
+    border-radius: 100%;
+    border: 1px solid goldenrod
+
+}
+
+.navheader {
+    background-color: transparent;
+    
+}
+
+.listademenu {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    align-items: center;
+   
+}
+
+a {
+    color: gold;
+    text-decoration: none;
+    font-size: 20px;
+}
+ 
+
+.li a:hover{
+    color: white;
+}
+
+.main .sectionimages {
+    display: flex;
+    padding: 25px;
+        
+}
+
+.cidade {
+    text-align: center;
+    flex-direction: row;
+    
+
+}
+
+.bemvindo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+}
+
+.sobreeurotour {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.pontosturisticos {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+.descricao {
+ padding: 5px;
+ margin: 20px;
+ justify-content: center;
+    
+}
+
+.redessociais {
+    text-align: center;
+}
+
+.redefooter {
+    width: 30px;
+    height: 30px;
+   
+}
+
+.ulredessociais {
+    display: flex;
+    justify-content: center;
+}
+
+.ulredessociais a:hover {
+    color: white;
+}
+
+a {
+    margin: 20px;
+    text-align: center;
+}
+
+.redefooter {
+    border-radius: 50%;
+}
+
+.ulum {
+    padding: 10px;
+}
+
+.logozap{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.contato {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.localizacao {
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+}
+
+.lidivum {
+    padding: 5px;
+}
+
+.h1cadastro {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+.divumcadastro {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+    
+
+
+
